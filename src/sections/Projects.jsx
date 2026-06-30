@@ -1,11 +1,18 @@
 import { ArrowUpRight } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+import sms from "../assets/projects/SMS.jpg";
+import spg from "../assets/projects/SPG.jpg";
+import trivia from "../assets/projects/trivia.jpg";
+import weather from "../assets/projects/Weather-app.png";
+import notes from "../assets/projects/Notes.png";
+import amazon from "../assets/projects/amazon.png";
+import todolist from "../assets/projects/To-do-list.png";
 
 const projects = [
         {
         title: "Student management system",
         description: "Student Management API is a RESTful backend application built with Python, FastAPI, SQLite, and Pydantic. It provides CRUD operations, search, filtering, pagination, and input validation for managing student records. The project follows a modular architecture, demonstrating clean code practices, database integration, REST API development, and effective backend programming skills.",
-        image: "/public/projects/SMS.jpg",
+        image: sms,
         tags: ["Backend", "python","FastAPI", "SQLite","Rest API", "Pydantic"],
         link: "https://github.com/jay-bhrama/Student-Management-system",
         github: "https://github.com/jay-bhrama/Student-Management-system"
@@ -13,7 +20,7 @@ const projects = [
         {
         title: "Secure Password Generator",
         description: "A Python-based password generator that creates strong, customizable passwords based on user preferences. It supports uppercase letters, digits, and special characters while enforcing minimum length for enhanced security.",
-        image: "/public/projects/SPG.jpg",
+        image: spg,
         tags: ["Backend", "python"],
         link: "https://github.com/jay-bhrama/Secure-Password-generator",
         github: "https://github.com/jay-bhrama/Secure-Password-generator"
@@ -21,7 +28,7 @@ const projects = [
      {
         title: "Trivia-Quiz-App",
         description: "An interactive Python quiz game that presents random programming questions, evaluates user responses, tracks scores, and provides instant feedback, helping users test and improve their Python fundamentals.",
-        image: "/public/projects/trivia.jpg",
+        image: trivia,
         tags: ["Backend","API", "python"],
         link: "https://github.com/jay-bhrama/Trivia-quiz-game",
         github: "https://github.com/jay-bhrama/Trivia-quiz-game"
@@ -29,7 +36,7 @@ const projects = [
     {
         title: "WEATHER-APP",
         description: "It's an weather app which tell weather according to cities using weather API, with weather it also tells windspeed and humidity.",
-        image: "/public/projects/Weather-app.png",
+        image: weather,
         tags: ["HTML","CSS", "JavaScript"],
         link: "https://github.com/jay-bhrama/Weather-Application-",
         github: "https://github.com/jay-bhrama/Weather-Application-"
@@ -37,7 +44,7 @@ const projects = [
     {
         title: "NOTES-APP",
         description: "It's an Notes app which can contain all your notes and it keeps them save even if you close it.",
-        image: "/public/projects/Notes.png",
+        image: notes,
           tags: ["HTML","CSS", "JavaScript"],
         link: "https://github.com/jay-bhrama/Notes-App",
         github: "https://github.com/jay-bhrama/Notes-App"
@@ -45,7 +52,7 @@ const projects = [
     {
         title: "TO-DO-LIST APP",
         description: "It's an TO-DO-LIST APP tracker it keeps an record of your saved works.",
-        image: "/public/projects/To-do-list.png",
+        image: todolist,
           tags: ["HTML","CSS", "JavaScript"],
         link: "https://github.com/jay-bhrama/To-Do-List-Application",
         github: "https://github.com/jay-bhrama/To-Do-List-Application"
@@ -53,7 +60,7 @@ const projects = [
     {
         title: "AMAZON [Home-page]",
         description: "It's an amazon homepage which contains navbar and other diffrent styles exactly same as amazon page, we built it using HTML & CSS .",
-        image: "/public/projects/amazon.png",
+        image: amazon,
           tags: ["HTML","CSS", ""],
         link: "https://nimble-panda-6538a4.netlify.app/",
         github: "https://nimble-panda-6538a4.netlify.app/"
