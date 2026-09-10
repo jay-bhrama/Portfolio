@@ -3,7 +3,14 @@ import { Download } from "lucide-react";
 export const AnimatedBorderButton = ({ children }) => {
   return (
     <button
-      onClick={() => window.open("https://docs.google.com/document/d/12Pt4xJvKSTfU3isUsPc5yicNXtBdi2An/edit?usp=drive_link&ouid=113977213988572837946&rtpof=true&sd=true", "_blank")}
+      onClick={() => {
+        const link = document.createElement("a");
+        link.href = "/Jayesh_Upmanyu_Resume.docx";
+        link.download = "Jayesh_Upmanyu_Resume.docx";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }}
       className="relative bg-transparent border border-border 
         text-foreground hover:border-primary/50 transition-all 
         duration-1000 focus:outline-none focus-visible:ring-2 
